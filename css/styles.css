@@ -73,3 +73,25 @@ color: hsl(184, 100%, 22%);
 .btn3{
 color: hsl(179, 100%, 13%);
 }
+
+@media screen and (max-width:642px){
+.container{
+flex-direction: column;
+margin: 10px 0 10px 0;
+height:auto;
+}
+.item{
+border-radius: 0 !important;
+height: 400px !important;
+}
+
+.item1{
+border-top-left-radius: 10px !important;
+border-top-right-radius: 10px !important;
+}
+.item3{
+border-bottom-left-radius: 10px !important;
+border-bottom-right-radius: 10px !important;
+
+}
+}
